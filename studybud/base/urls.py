@@ -18,5 +18,6 @@ urlpatterns = [
     path('update-user/', views.updateUser, name="update-user"),
     
     path('topics/', views.topicsPage, name="topics"),
+    # path('delete-topic/<str:pk>/', views.delete-topic, name='delete_topic'),
     path('activity/', views.activityPage, name="activity"),
 ]
